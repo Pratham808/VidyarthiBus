@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Vidyarthi Bus</string>
+    <string name="welcome_message">Hello, Student!</string>
+    <string name="report_empty">Empty</string>
+    <string name="report_half_full">Half Full</string>
+    <string name="report_full">Full</string>
+    <string name="nearby_routes">Nearby Routes</string>
+    <string name="shared_autos">Shared Autos</string>
+    <string name="ai_assistant">AI Assistant</string>
+    <string name="settings">Settings</string>
+    <string name="analytics">Analytics</string>
+    <string name="login">Login</string>
+    <string name="get_started">Get Started</string>
+    <string name="next">Next</string>
+</resources>

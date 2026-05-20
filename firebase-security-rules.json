@@ -1,0 +1,21 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "routes": {
+      ".read": true,
+      ".write": "root.child('admins').child(auth.uid).exists()"
+    },
+    "reports": {
+      ".read": true,
+      ".indexOn": ["routeId", "timestamp"],
+      "$reportId": {
+        ".write": "auth != null && (!data.exists() || data.child('userId').val() == auth.uid)"
+      }
+    },
+    "auto_contacts": {
+      ".read": true,
+      ".write": "root.child('admins').child(auth.uid).exists()"
+    }
+  }
+}

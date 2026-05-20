@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ವಿದ್ಯಾರ್ಥಿ ಬಸ್</string>
+    <string name="welcome_message">ಹಲೋ, ವಿದ್ಯಾರ್ಥಿ!</string>
+    <string name="report_empty">ಖಾಲಿ ಇದೆ</string>
+    <string name="report_half_full">ಅರ್ಧ ತುಂಬಿದೆ</string>
+    <string name="report_full">ತುಂಬಿದೆ</string>
+    <string name="nearby_routes">ಹತ್ತಿರದ ಮಾರ್ಗಗಳು</string>
+    <string name="shared_autos">ಹಂಚಿದ ಆಟೋಗಳು</string>
+    <string name="ai_assistant">AI ಸಹಾಯಕ</string>
+    <string name="settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="analytics">ಅನಲಿಟಿಕ್ಸ್</string>
+    <string name="login">ಲಾಗಿನ್</string>
+    <string name="get_started">ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="next">ಮುಂದೆ</string>
+</resources>
